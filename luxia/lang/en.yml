@@ -1,0 +1,58 @@
+
+
+#prefix
+command_prefix: "luxi"
+
+#help command
+help_title: "help"
+help_description: "this docx is a guide to announce informations about commands and other using method"
+help_field_join_name: "luxi join"
+help_field_join_description: "starts to join.\n this command have to be used in first access."
+help_field_license_name: "luxi license"
+help_field_license_description: "view license."
+help_field_search_name: "luxi search <search value>"
+help_field_search_description: "search in luxi bot database."
+help_field_search_add_name: "luxi searchadd <key>^<value>"
+help_field_search_add_description: "add search results to luxi bot database."
+
+#license command
+license_title: "license"
+license_desciption: "incomplete"
+
+#error
+error_title: "error"
+error_description: "oh sorry there is an error named\"{}\"."
+
+#error msg
+error_command_not_found: "there is no command named\"{}\""
+error_command_incomplete: "incomplete command"
+error_command_already_joined: "already joined"
+error_command_not_joined: "not joined"
+
+# stay join command
+join_stay_title: "join"
+join_stay_description: "do you really want to join Luxi bot service? \n if you want to join you have to write \"luxi join\""
+join_stay_field_license_name: "license"
+join_stay_field_license_value: "you can access to \"luxi license\" docs."
+join_stay_field_stay_save_name: "stay join user's data save"
+join_stay_field_stay_save_value: "for the join system, user's id will be saved in bot in temporary."
+
+#join
+join_title: "join"
+join_description: "congratulations! you have joined to luxi bot service."
+join_field_service: "service"
+join_field_service_value: "you can use many services. if you want to view all services, write \"luxi help\" "
+
+#search command
+search_title: "search"
+search_description: "search data in luxi bot database."
+search_field_name: "{}) {}"
+search_field_value: "{}"
+search_field_not_found_name: "no search result"
+search_field_not_found_value: "there is no search result of '{}'.\n you will be more comfortable if you use keyword-search."
+
+#search add command
+search_add_title: "add"
+search_add_description: "add search results to luxi bot database"
+search_add_field_name: "key : '{}' value : '{}'"
+search_add_field_value: "if search value have a value or key which outside of luxi bot license, search values can be deleted by no announcement."

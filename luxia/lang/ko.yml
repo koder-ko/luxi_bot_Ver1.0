@@ -1,0 +1,61 @@
+
+
+#prefix
+command_prefix: "럭시야"
+
+#help command
+help_title: "도움"
+help_description: "이 문서는 Luxi 봇의 원활한 사용을 위한\n명렁어와 갖가지 사용 방법을 적어놓은 문서입니다."
+help_field_join_name: "럭시야 가입"
+help_field_join_description: "가입을 진행합니다.\n초기 사용시 필요한 절차입니다."
+help_field_license_name: "럭시야 라이센스"
+help_field_license_description: "라이센스를 봅니다."
+help_field_search_name: "럭시야 검색 <검색내용>"
+help_field_search_description: "럭시 봇 데이타베이스에서 검색을 진행합니다."
+help_field_search_add_name: "럭시야 검색추가 <키워드>^<값>"
+help_field_search_add_description: "럭시 봇 데이타베이스에 검색내용을 추가합니다."
+
+#license command
+license_title: "라이센스"
+license_desciption: "미개발"
+#error
+error_title: "에러"
+error_description: "이런 죄송해요 \"{}\"이라는 에러가 생겼어요."
+
+#error msg
+error_command_not_found: "{}이라는 커맨드가 없음"
+error_command_incomplete: "미완성 커맨드"
+error_command_already_joined: "이미 가입함"
+error_command_not_joined: "가입하지 않음"
+error_command_incorrect_usage: "명령어 사용이 잘못됨"
+
+
+# stay join command
+join_stay_title: "가입"
+join_stay_description: "Luxi 봇 서비스에 가입하시겠습니까?\n가입하고 싶으시다면 한번더 \"럭시야 가입\" 명령어를 입력해주세요."
+join_stay_field_license_name: "라이센스"
+join_stay_field_license_value: "\"럭시야 라이센스\" 로 라이센스를 확인하실 수 있습니다."
+join_stay_field_stay_save_name: "가입 대기자 정보 저장"
+join_stay_field_stay_save_value: "가입 시스템을 위해서 가입 대기자의 id 정보가\n일시적 데이터로 저장됩니다."
+
+#join command
+join_title: "가입"
+join_description: "축하합니다! Luxi 봇 서비스에 가입되셨습니다."
+join_field_service: "서비스"
+join_field_service_value: "\"럭시야 도움\" 으로 다양한 럭시 봇 서비스의 서비스를 조회하셔서 사용하실 수 있습니다"
+
+#search command
+search_title: "검색"
+search_description: "럭시 봇 데이터베이스에서 검색합니다."
+search_field_name: "{}) {}"
+search_field_value: "{}"
+search_field_not_found_name: "검색 결과 없음"
+search_field_not_found_value: "'{}'에 대한 검색 결과가 없습니다.\n 키워드 검색을 하시면 조금 더 편리한 검색을 하실 수 있습니다."
+
+#search add command
+search_add_title: "추가"
+search_add_description: "럭시 봇 데이터베이스에 검색결과를 추가합니다"
+search_add_field_name: "키워드 : '{}' 값 : '{}'"
+search_add_field_value: "검색결과에 럭시 봇의 라이센스를 위반하는 내용이 적힐 경우, 검색 결과는 무통보로 삭제될 수 있습니다."
+
+
